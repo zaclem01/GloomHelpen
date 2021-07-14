@@ -1,4 +1,4 @@
-export interface Character {
+interface Character {
   id: number;
   name: string;
   hpBase: number;

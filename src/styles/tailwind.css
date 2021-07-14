@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Gloom";
+    src: url("../assets/fonts/PirataOne-Gloomhaven.ttf") format("truetype"),
+      url("../assets/fonts/PirataOne-Regular.woff2") format("woff2"),
+      url("../assets/fonts/PirataOne-Regular.woff") format("woff");
+    font-weight: normal;
+  }
+}
